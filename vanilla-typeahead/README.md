@@ -109,7 +109,7 @@ We can now see data on the view, but it's not very dynamic. Let's get our typeah
     * In our `filterText` function, declare a variable called filtered.
       * First we want to filter through our `characters` array to search each name for the character that has been typed in. (Hint: Normalize the characters by making both the value and term lowercase.)
       * We can then grab our map from the previous step and chain it to our filter to build the HTML we want to show. (Remove the join method, we'll use that later.)
-    * Next, add a condtional to check that our `filtered` has at least one value.
+    * Next, add a conditional to check that our `filtered` has at least one value.
       * If it does, invoke the render method passing in our `filtered` array.
     * Adjust the `render` method so that it now receives one argument, an array.
       * Our `html` variable should join the passed in array.

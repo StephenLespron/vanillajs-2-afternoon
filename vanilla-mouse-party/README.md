@@ -265,10 +265,10 @@ function draw() {
     container.appendChild(ball);
   }, 50);
 }
-window.addEventListener('mouseover', function() {
+document.addEventListener('mouseover', function() {
   drawId = draw();
 });
-window.addEventListener('mouseout', function() {
+document.addEventListener('mouseout', function() {
   clearInterval(drawId);
 });
 ```
